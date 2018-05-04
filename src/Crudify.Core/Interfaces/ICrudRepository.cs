@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 namespace Crudify.Core.Interfaces
 {
     public interface ICrudRepository<TCrudEntity, TCrudEntityId> : IDisposable
-            where TCrudEntity : ICrudEntity<TCrudEntityId>
+            where TCrudEntity : class, ICrudEntity<TCrudEntityId>
             where TCrudEntityId : struct
     {
         TCrudEntityId Create(TCrudEntity crudEntity);
 
         Task<TCrudEntityId> CreateAsync(TCrudEntity crudEntity);
 
-        TCrudEntityId Read(TCrudEntityId crudEntityId);
+        TCrudEntity Read(TCrudEntityId crudEntityId);
 
-        Task<TCrudEntityId> ReadAsync(TCrudEntityId crudEntityId);
+        Task<TCrudEntity> ReadAsync(TCrudEntityId crudEntityId);
 
         void Update(TCrudEntity crudEntity);
 
