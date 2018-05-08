@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Crudify.Core.Interfaces
+namespace Crudify.Core
 {
     public interface ICrudRepository<TCrudEntity, TCrudEntityId> : IDisposable
             where TCrudEntity : class, ICrudEntity<TCrudEntityId>
