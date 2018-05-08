@@ -5,13 +5,7 @@ VisualStudioVersion = 15.0.27520.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EF9FA46-FA13-4B08-BC50-8ADA5152F789}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{60063E2F-926A-4FD5-8164-62DD22469741}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{43959BC0-D446-43D6-9C06-7773A79AB37B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crudify.Core", "src\Crudify.Core\Crudify.Core.csproj", "{E37D2CFF-2094-4ABA-B744-8E6895459F8F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crudify.CoreTests", "tests\Crudify.CoreTests\Crudify.CoreTests.csproj", "{3888BE95-EDDC-4F17-B5EF-8205C826F193}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5631971-4ACA-4936-B49B-F28ECF4B6503}"
 	ProjectSection(SolutionItems) = preProject
@@ -29,17 +23,12 @@ Global
 		{E37D2CFF-2094-4ABA-B744-8E6895459F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37D2CFF-2094-4ABA-B744-8E6895459F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E37D2CFF-2094-4ABA-B744-8E6895459F8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3888BE95-EDDC-4F17-B5EF-8205C826F193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3888BE95-EDDC-4F17-B5EF-8205C826F193}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3888BE95-EDDC-4F17-B5EF-8205C826F193}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3888BE95-EDDC-4F17-B5EF-8205C826F193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E37D2CFF-2094-4ABA-B744-8E6895459F8F} = {2EF9FA46-FA13-4B08-BC50-8ADA5152F789}
-		{3888BE95-EDDC-4F17-B5EF-8205C826F193} = {60063E2F-926A-4FD5-8164-62DD22469741}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1802FC0A-1E32-4386-ACDD-7DE92E14B83D}
